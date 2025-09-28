@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doação de Tecnologia</title>
+
+  <!-- Link para o CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="imagens/uninter-logo-1.png" alt="Logo Doação de Tecnologia" class="logo">
+    <img src="imagens/zequinha_araujo_logo.png" alt="Logo Doação de Tecnologia" class="logo2">
+    <h1>Doação de Tecnologia</h1>
+    <p>Contribua com equipamentos que podem transformar vidas!</p>
+  </header>
+
+  <main>
+    <h2>Formulário de Doação</h2>
+    <form id="donationForm">
+      <label for="name">Nome completo:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">E-mail para contato:</label>
+      <input type="email" id="email" required>
+
+      <label for="item">Equipamento para doar:</label>
+      <select id="item" required>
+        <option value="">Selecione...</option>
+        <option value="Gabinete">Gabinete</option>
+        <option value="Placa Mae">Placa Mae</option>
+        <option value="PROCESSADOR">Processador</option>
+        <option value="Fonte">Fonte</option>
+        <option value="HD">HD</option>
+        <option value="Memoria Ram">Memoria Ram</option>
+        <option value="Outro">Outro</option>
+      </select>
+
+      <label for="description">Descrição do equipamento:</label>
+      <textarea id="description" rows="4" placeholder="Ex: processador i5 750, (Lga 1156)..."></textarea>
+
+      <button type="submit">Enviar Doação</button>
+    </form>
+
+    <div class="success-message" id="successMessage"></div>
+  </main>
+
+  <!-- Link para o JavaScript externo -->
+  <script src="script.js"></script>
+
+</body>
+</html>
