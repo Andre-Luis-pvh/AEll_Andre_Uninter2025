@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #1ea5c0;
+  background-color: #69a2ff;
   color: white;
   padding: 20px;
   text-align: center;
@@ -56,7 +56,7 @@ input, textarea, select {
 }
 
 button {
-  background-color: #0a9396;
+  background-color: #989697;
   color: white;
   padding: 10px 20px;
   margin-top: 20px;
@@ -66,7 +66,7 @@ button {
 }
 
 button:hover {
-  background-color: #3c07ce;
+  background-color: #050112;
 }
 
 .success-message {
